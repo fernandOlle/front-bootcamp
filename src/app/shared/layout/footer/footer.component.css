@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  color: var(--secondary-color);
+  padding: 0rem 1.5rem;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1rem;
+
+  bottom: 0;
+  position: absolute;
+
+  box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+
+}
+@media screen and (max-width: 768px) {
+  .footer{
+    justify-content: center;
+  }
+}
